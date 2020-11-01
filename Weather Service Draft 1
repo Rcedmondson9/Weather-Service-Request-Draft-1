@@ -1,0 +1,45 @@
+# Python program to find current weather details of any city  
+
+# using weather.gov   
+
+# The main url used for the request  
+
+Print (‘Hello, and welcome to weather information’) 
+
+base_url = ‘openweathermap.org’   
+
+# provide the city name  
+
+Def city_name =  
+
+City_name= input(‘Enter city name’)  
+
+Url=’ openweathermap.org ' 
+
+Res=requests_from_(url) 
+
+Data=res.url  
+
+Show_data=(data) 
+
+#weather that is shown from the request  
+
+Currenttemp=data[‘maincity’][‘current_temp’] 
+
+hightemp = data['maincity']['temp_max'] 
+
+lowtemp = data['maincity']['temp_min'] 
+
+humid = data['maincity']['humidity'] 
+
+Description_of_weather = data['weather']['description of weather'] 
+
+ 
+
+# If city is not found    
+
+else:  
+
+print (" City Not Found ") 
+
+Print (“try again”)  
